@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Samuel Guillaume",
-    "label": "Backend Software Engineer",
+    "label": "Senior Software Engineer",
     "image": "",
     "email": "samuel@guill.me",
     "phone": "",
@@ -24,11 +24,22 @@
   },
   "work": [
     {
+      "company": "GitGuardian",
+      "position": "Senior Software Engineer",
+      "highlights": [
+        "Stack: Python, Django, PostgreSQL, RabbitMQ, Elasticsearch, Docker"
+      ],
+      "startDate": "2021-01",
+      "endDate": "Present",
+      "summary": "Work on the secret detection engine and the implementation of features to help customers remediate their incidents.",
+      "website": "https://gitguardian.com/"
+    },
+    {
       "company": "nam.R",
       "position": "Backend Software Engineer",
-      "highlights": [],
-      "startDate": "2019-10-14",
-      "endDate": "Present",
+      "highlights": ["Stack: Python, Kotlin, PostgreSQL"],
+      "startDate": "2019-10",
+      "endDate": "2021-01",
       "summary": "In charge of the scraping infrastructure and the development of data delivery APIs and internal tools",
       "website": "https://namr.com/en/"
     },
@@ -36,8 +47,8 @@
       "company": "CoESSI",
       "position": "Cybersecurity Engineer Intern",
       "highlights": [],
-      "startDate": "2019-04-30",
-      "endDate": "2019-09-30",
+      "startDate": "2019-04",
+      "endDate": "2019-09",
       "summary": "Participate in ANBLIC project (Homomorphic Encryption) and assist security audits (code, configuration, infrastructure, penetration tests)",
       "website": "https://coessi.com/"
     },
@@ -45,8 +56,8 @@
       "company": "Osaka Prefecture University",
       "position": "International Research Student",
       "highlights": [],
-      "startDate": "2018-05-01",
-      "endDate": "2018-08-31",
+      "startDate": "2018-05",
+      "endDate": "2018-08",
       "summary": "Anomaly detection with autoregressive model and creating a drone video dataset for semi-supervised learning. (Keras, Tensorflow, Python)",
       "website": "http://www.eng.osakafu-u.ac.jp/english/"
     },
@@ -54,8 +65,8 @@
       "company": "EISTI",
       "position": "Java/JavaEE Developer",
       "highlights": [],
-      "startDate": "2016-03-31",
-      "endDate": "2018-02-28",
+      "startDate": "2016-03",
+      "endDate": "2018-02",
       "summary": "Maintain and improve the school internal academic app (arel.eisti.fr)",
       "website": "https://eisti.fr/en/"
     },
@@ -63,8 +74,8 @@
       "company": "Polylearn",
       "position": "Mobile App Developer Intern",
       "highlights": [],
-      "startDate": "2017-06-01",
-      "endDate": "2017-08-31",
+      "startDate": "2017-06",
+      "endDate": "2017-08",
       "summary": "Development of a hybrid app with Ionic/Angular",
       "website": "https://polylearn.co/"
     }
@@ -73,7 +84,7 @@
   "education": [
     {
       "institution": "EISTI Cergy",
-      "area": "Informatic, Cybersecurity",
+      "area": "Computer Science, Cybersecurity",
       "studyType": "Engineer Diploma",
       "startDate": "2014-12-31",
       "endDate": "2019-12-31",
@@ -82,7 +93,7 @@
     },
     {
       "institution": "Cergy-Pontoise University",
-      "area": "Mathematics and Informatics",
+      "area": "Mathematics and Compute Science",
       "studyType": "Bachelor of Science",
       "startDate": "2014-12-31",
       "endDate": "2017-12-31",
@@ -93,53 +104,18 @@
   "awards": [],
   "publications": [
     {
+      "name": "Secrets Detection – Tools for reproducible, detailed, and meaningful benchmarks",
+      "publisher": "GitGuardian",
+      "releaseDate": "2021-11-04",
+      "website": "https://blog.gitguardian.com/tools-for-reproducible-detailed-and-meaningful-benchmarks/",
+      "summary": "Learn how we built the tools to produce meaningful benchmarks and track our improvements in speed over the year."
+    },
+    {
       "name": "Developing a distributed web scraper using Celery",
       "publisher": "Medium nam.R",
       "releaseDate": "2020-09-01",
       "website": "https://medium.com/nam-r/developing-a-distributed-web-scraper-using-celery-24c17df4cc63",
       "summary": "Why and how I developed a custom scraping infrastructure for nam.R"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "keywords": [
-        "Python",
-        "Kotlin",
-        "Java",
-        "SQL",
-        "Ruby",
-        "Javascript",
-        "Shell",
-        "OCaml",
-        "LaTeX"
-      ]
-    },
-    {
-      "name": "Frameworks",
-      "keywords": [
-        "Flask",
-        "Celery",
-        "gRPC"
-      ]
-    },
-    {
-      "name": "Tools",
-      "keywords": [
-        "Git",
-        "Docker",
-        "RabbitMQ",
-        "PostgreSQL",
-        "Linux"
-      ]
-    },
-    {
-      "name": "Concepts",
-      "keywords": [
-        "Software design",
-        "Design Patterns",
-        "Cryptography"
-      ]
     }
   ],
   "languages": [
@@ -159,17 +135,15 @@
   "interests": [
     {
       "name": "Photograghy",
-      "keywords": [
-        "Film",
-        "Digital"
-      ]
+      "keywords": ["Film", "Digital"]
+    },
+    {
+      "name": "Climbing",
+      "keywords": ["Bouldering", "Sport climbing"]
     },
     {
       "name": "Dance",
-      "keywords": [
-        "Ballet",
-        "Modern jazz"
-      ]
+      "keywords": ["Ballet"]
     }
   ],
   "references": [],
